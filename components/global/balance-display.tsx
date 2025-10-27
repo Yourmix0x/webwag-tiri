@@ -54,7 +54,7 @@ export const BalanceDisplay = () => {
           </div>
         ) : (
           <div className="text-center py-6">
-            <div className="text-4xl font-orbitron font-bold text-gray-900 dark:text-white mb-2">
+            <div className="text-lg font-orbitron font-bold text-gray-900 dark:text-white mb-2 md:text-2xl lg:text-3xl">
               {balance?.formatted}
             </div>
             <div className="text-lg font-inter text-blue-600 dark:text-blue-400 font-semibold">

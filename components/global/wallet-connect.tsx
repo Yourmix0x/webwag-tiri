@@ -12,7 +12,7 @@ export const WalletConnect = () => {
       <div className="relative group">
         <div className="absolute inset-0 bg-linear-to-r from-emerald-400 via-green-500 to-teal-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity"></div>
         <div className="relative bg-white/90 dark:bg-slate-800/90 backdrop-blur-lg border border-emerald-200/50 dark:border-emerald-700/50 rounded-2xl p-8 shadow-2xl">
-          <div className="flex items-center justify-between">
+          <div className="flex gap-4 flex-wrap items-center justify-between">
             <div className="flex items-center space-x-4">
               <div className="relative">
                 <div className="w-16 h-16 bg-linear-to-r from-emerald-500 to-teal-500 rounded-2xl flex items-center justify-center shadow-xl">

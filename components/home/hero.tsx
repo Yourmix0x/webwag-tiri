@@ -38,10 +38,10 @@ export const Hero = () => {
               <Brain className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-lg font-orbitron font-semibold text-gray-900 dark:text-white mb-2">
-              Learning WAGMI
+              WAGMI
             </h3>
             <p className="font-inter text-gray-600 dark:text-gray-300 text-sm">
-              Mastering React hooks for Ethereum interactions
+              React hooks for Ethereum interactions
             </p>
           </div>
 

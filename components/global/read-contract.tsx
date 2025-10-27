@@ -66,14 +66,14 @@ export const ReadContract = () => {
               </p>
             ) : (
               <div className="py-2">
-                <p className="text-3xl font-orbitron font-bold text-purple-800 dark:text-purple-300">
+                <p className="text-xl font-orbitron font-bold text-purple-800 dark:text-purple-300 md:text-2xl lg:text-3xl">
                   {formattedBalance} DECE
                 </p>
               </div>
             )}
           </div>
 
-          <div className="text-xs font-inter text-gray-500 dark:text-gray-400 space-y-1 p-4 bg-gray-50 dark:bg-slate-700/50 rounded-xl">
+          <div className="text-[10px] md:text-xs font-inter text-gray-500 dark:text-gray-400 space-y-1 p-4 bg-gray-50 dark:bg-slate-700/50 rounded-xl">
             <p>
               <span className="font-medium">Contract:</span> {DECE_ADDRESS}
             </p>
