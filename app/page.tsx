@@ -1,9 +1,5 @@
-"use client";
-import { useAccount } from "wagmi";
+const HomePage = () => {
+  return <>Hi webwag tiri Home Page</>;
+};
 
-export default function Home() {
-  const { isConnected } = useAccount();
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black"></div>
-  );
-}
+export default HomePage;
