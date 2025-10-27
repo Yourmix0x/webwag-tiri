@@ -1,4 +1,6 @@
 "use client";
+import { BalanceDisplay } from "@/components/global/balance-display";
+import { NetworkInfo } from "@/components/global/network-info";
 import { WalletConnect } from "../global/wallet-connect";
 
 export const WalletDashboard = () => {
@@ -17,6 +19,15 @@ export const WalletDashboard = () => {
         <div className="space-y-8">
           {/* Wallet Connection */}
           <WalletConnect />
+
+          {/* Main Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Balance and Network */}
+            <div className="space-y-6">
+              <BalanceDisplay />
+              <NetworkInfo />
+            </div>
+          </div>
         </div>
       </div>
     </section>
