@@ -2,6 +2,8 @@
 import { BalanceDisplay } from "@/components/global/balance-display";
 import { NetworkInfo } from "@/components/global/network-info";
 import { WalletConnect } from "../global/wallet-connect";
+import { ReadContract } from "../global/read-contract";
+import { WriteContract } from "../global/write-contract";
 
 export const WalletDashboard = () => {
   return (
@@ -26,6 +28,12 @@ export const WalletDashboard = () => {
             <div className="space-y-6">
               <BalanceDisplay />
               <NetworkInfo />
+            </div>
+
+            {/* Contract Interactions */}
+            <div className="space-y-6">
+              <ReadContract />
+              <WriteContract />
             </div>
           </div>
         </div>
