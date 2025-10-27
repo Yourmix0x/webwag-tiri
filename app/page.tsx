@@ -1,5 +1,13 @@
+import { Hero } from "@/components/home/hero";
+import { WalletDashboard } from "@/components/home/wallet-dashboard";
+
 const HomePage = () => {
-  return <>Hi webwag tiri Home Page</>;
+  return (
+    <>
+      <Hero />
+      <WalletDashboard />
+    </>
+  );
 };
 
 export default HomePage;

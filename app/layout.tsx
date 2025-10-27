@@ -1,10 +1,9 @@
-import { AppQueryClientProvider } from "@/providers/query-client-provider";
 import { ScrollProvider } from "@/animations/scroll-provider";
-import { AppWagmiProvider } from "@/providers/wagmi-provider";
 import { Inter, Orbitron } from "next/font/google";
 import { AppLayout } from "@/layouts";
 import type { Metadata } from "next";
 import "./globals.css";
+import Providers from "@/providers";
 
 const orbitron = Orbitron({
   variable: "--font-orbitron",
@@ -38,11 +37,9 @@ export default function RootLayout({
         className={`${orbitron.variable} ${inter.variable} antialiased font-inter`}
       >
         <ScrollProvider>
-          <AppWagmiProvider>
-            <AppQueryClientProvider>
-              <AppLayout>{children}</AppLayout>
-            </AppQueryClientProvider>
-          </AppWagmiProvider>
+          <Providers>
+            <AppLayout>{children}</AppLayout>
+          </Providers>
         </ScrollProvider>
       </body>
     </html>
