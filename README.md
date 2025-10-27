@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  webwag tiri
 
-## Getting Started
+A modern Web3 wallet dashboard built with **React**, **Next.js**, and **WAGMI** for blockchain interactions and decentralized applications.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 🔗 **Wallet Connection** - Connect MetaMask and other Web3 wallets
+- 💰 **Balance Display** - View native token balances
+- 🌐 **Network Switching** - Switch between Ethereum, Sepolia, and Avalanche
+- 📖 **Contract Reading** - Read data from smart contracts
+- ✍️ **Contract Writing** - Send transactions to the blockchain
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Next.js 14, TypeScript
+- **Web3**: WAGMI, Viem, ConnectKit
+- **Styling**: Tailwind CSS, Lucide Icons
+- **Fonts**: Orbitron, Inter
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourmix0x/webwag-tiri.git
+   cd webwag-tiri
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   ```
+   http://localhost:3000
+   ```
+
+## 📁 Project Structure
+
+```
+├── app/                 # Next.js app directory
+├── components/          # React components
+│   ├── global/         # Shared components
+│   └── home/           # Page-specific components
+├── config/             # Configuration files
+└── providers/          # Context providers
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔗 Connect
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **LinkedIn**: [@yourmix0x](https://www.linkedin.com/in/yourmix0x/)
+- **Twitter**: [@yourmix0x](https://x.com/yourmix0x)
+- **GitHub**: [@yourmix0x](https://github.com/yourmix0x)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Built by [Yourmix0x](https://github.com/yourmix0x)**
